@@ -1,0 +1,24 @@
+**[22,27,16,2,18,6]** -> Insertion Sort
+
+1- İlk adım olarak dizinin 4. elemanı olan ‘2’ yi en başa alıp, ‘22’yi 2’nin yerine koyar başlar, → **[2,27,16,22,18,6]**
+
+2- Daha sonraki en küçük eleman ‘6’ olduğu için 27 ile 6’nın yerlerini değiştirir → **[2,6,16,22,18,27]**
+
+3- Daha sonraki en küçük eleman 16 olduğu için, 16 sayısı yerinde kalır → **[2,6,16,22,18,27]**
+
+4- Daha sonraki en küçük eleman18 olduğu için, 22 ile 162nın yerini değiştirir → **[2,6,16,18,22,27]**
+
+5- Daha sonraki en küçük ve listenin son elemanı 27 olduğu için 27 sayısını kontrol eder ve bırakır →
+**[2,6,16,18,22,27]
+
+Aşamaları yazacak olursak:
+
+1- [2,27,16,22,18,6]
+2- [2,6,16,22,18,27]
+3- [2,6,16,22,18,27]
+4- [2,6,16,18,22,27]
+
+Big-O notation —> O(n^2) şeklindedir.
+
+Dizi sıralandıktan sonra 18 sayısı aşağıdaki case'lerden hangisinin kapsamına girer?
+Average case kapsamına girer.
